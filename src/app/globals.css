@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+/* .blur-edge {
+  filter: blur(0.05px); 
+  mask-image: radial-gradient(circle at center, black 70%, transparent 80%);
+  mask-size: 100% 100%;
+} */
