@@ -6,7 +6,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
-require('dotenv').config({ path: '.env.local' });
+// require('dotenv').config({ path: '.env.local' });
 
 export default function Home() {
   return (

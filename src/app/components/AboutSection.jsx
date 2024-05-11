@@ -62,7 +62,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            배움에 대한 의지와 열정을 가진 웹 개발자입니다. JavaScript, React, Java, HTML, CSS, 그리고 Git에 대한 경험을 바탕으로 사용자 친화적이면서도 기능적인 웹사이트를 개발하고자 노력했습니다. 팀 협력을 중요시 여기며, 새로운 기술을 빠르게 습득하고자 하는 의지와 함께, 지속적으로 지식과 기술을 확장해 나가는 것을 중요시 여깁니다. 
+            {"I'm a software web developer with a passion for creating interactive and responsive web applications. I have experience with JavaScript, React, TypeScript, Java, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications."}
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

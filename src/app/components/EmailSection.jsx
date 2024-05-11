@@ -54,15 +54,13 @@ const EmailSection = () => {
         <h4 className="text-xl font-bold text-white my-2">{"Let's Connect"}</h4>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          기회를 기다리는 것이 아닌, 기회를 잡기 위해 고군분투합니다. <br/>
-          언제나 열려있으니 편하게 연락 주시면 감사하겠습니다. <br/>
-          {"빠른 시일 내에 답장 드리겠습니다:)"}
+          {"I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"}
         </p>
         <div className="socials flex flex-row gap-2 mt-3">
           <Link href="https://github.com/uxia99" target="_blank" className="mr-2">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/youjeong-jang-6bb368214/" target="_blank" className="ml-2 mr-2">
+          <Link href="https://www.linkedin.com" target="_blank" className="ml-2 mr-2">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
           <Link href="https://www.notion.so/Backend-TIL-Noted-52aad819f3844724929870e35708b7ee?pvs=4" target="_blank" className="mt-0.5 ml-2 mr-2">

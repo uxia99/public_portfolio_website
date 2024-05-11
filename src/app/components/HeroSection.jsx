@@ -30,7 +30,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            기술과 디자인을 결합해 혁신적인 웹 솔루션을 창출하는 열정적인 소프트웨어 개발자입니다. 전문적인 기술 능력과 예리한 디자인 감각을 바탕으로 사용자 경험 혁신에 중점을 두고 있습니다.
+            {"As a passionate Software Developer, I blend deep technical expertise with a keen eye for design to create impactful web solutions."}
           </p>
           <div>
             <a href="https://open.kakao.com/o/s72Dtwqg" target="_blank">
@@ -39,7 +39,7 @@ const HeroSection = () => {
               </button>
             </a>
             <a
-              href="https://www.linkedin.com/in/youjeong-jang-6bb368214/"
+              href="https://www.linkedin.com"
               target="_blank"
             >
               <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-2">
