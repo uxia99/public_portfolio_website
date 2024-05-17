@@ -14,6 +14,7 @@ const EmailSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
+      senderEmail: "uxia99@kakao.com",
       email: e.target.email.value,
       subject: e.target.subject.value,
       message: e.target.message.value,
@@ -41,6 +42,9 @@ const EmailSection = () => {
       console.log("Message sent successfully");
       setEmailSubmitted(true);
       setTimeout(() => setEmailSubmitted(false), 5000); // 5초 후 메시지 숨김
+    } else {
+      // 서버 응답 에러 처리
+      console.error("Failed to send message:", resData);
     }
   };
 
