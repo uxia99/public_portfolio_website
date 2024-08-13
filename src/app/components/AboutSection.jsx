@@ -62,8 +62,8 @@ const AboutSection = () => {
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-md">
-            {"인턴 개발자 경험을 통해 실무에 필요한 기술과 협업의 중요성을 배웠으며, 개인적인 프로젝트와 클론코딩, 학습을 하며 문제 해결 능력을 키워왔습니다. 디버깅 세션에도 참여하고 협업에 관한 서적을 읽으며 개발자로서 필요한 역량을 높이고자 노력합니다. 성취감에서 가장 큰 행복을 느끼는 사람으로서, 꾸준한 학습을 통해 최신 기술 트렌드를 따라가고, 이를 실제로 적용해보는 것을 좋아합니다. 어려움이 닥쳐도 끈기 있게 도전하는 태도를 바탕으로, 빠르게 성장하는 개발자가 되고자 노력하고 있습니다."}
+          <p className="text-base lg:text-lg">
+            {"I'm a software web developer with a passion for creating interactive and responsive web applications. I have experience with JavaScript, React, TypeScript, Java, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications."}
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
